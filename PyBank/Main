@@ -3,7 +3,7 @@ import csv
 
 # Establish the root path, data path and export output path
 root_path = os.path.join(os.getcwd(), ".")
-file_path = os.path.join("budget_data.csv")
+data_path = os.path.join("raw_data.csv")
 output_path = os.path.join(root_path, "output")
 
 # Iterate through the listdir results
